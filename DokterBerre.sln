@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DokterBerre.ConsoleApp", "src\DokterBerre.ConsoleApp\DokterBerre.ConsoleApp.csproj", "{50EB9874-8E3D-4D8B-AA4F-41E9E3C98B12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DokterBerre.Library", "src\DokterBerre.Library\DokterBerre.Library.csproj", "{C5B99519-5C14-42CF-9190-AC7CA8A10EA8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "db", "db", "{EFD0BC2E-9F03-467E-8EC5-BF2BB1594387}"
+	ProjectSection(SolutionItems) = preProject
+		src\DokterBerre.mysqldb\createdb.sql = src\DokterBerre.mysqldb\createdb.sql
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DokterBerre.WinformsApp", "src\DokterBerre.WinformsApp\DokterBerre.WinformsApp.csproj", "{6D659EEF-37E9-4CF3-8F52-730EC7F87CA8}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "DokterBerre.Setup", "src\DokterBerre.Setup\DokterBerre.Setup.vdproj", "{A8FF4104-B781-4A04-92A3-07C123BA8624}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50EB9874-8E3D-4D8B-AA4F-41E9E3C98B12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50EB9874-8E3D-4D8B-AA4F-41E9E3C98B12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50EB9874-8E3D-4D8B-AA4F-41E9E3C98B12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50EB9874-8E3D-4D8B-AA4F-41E9E3C98B12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5B99519-5C14-42CF-9190-AC7CA8A10EA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5B99519-5C14-42CF-9190-AC7CA8A10EA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5B99519-5C14-42CF-9190-AC7CA8A10EA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5B99519-5C14-42CF-9190-AC7CA8A10EA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D659EEF-37E9-4CF3-8F52-730EC7F87CA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D659EEF-37E9-4CF3-8F52-730EC7F87CA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D659EEF-37E9-4CF3-8F52-730EC7F87CA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D659EEF-37E9-4CF3-8F52-730EC7F87CA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8FF4104-B781-4A04-92A3-07C123BA8624}.Debug|Any CPU.ActiveCfg = Debug
+		{A8FF4104-B781-4A04-92A3-07C123BA8624}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
