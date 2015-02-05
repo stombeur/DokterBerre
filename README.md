@@ -7,6 +7,7 @@ Dr. Berre is a sample application that shows the real doctors how to
 - make a cheap installer that puts stuff on the desktop of the user
 
 
+
 ### Dr. Berre is made using:
 
 [Visual Studio Community Edition](http://www.visualstudio.com/en-us/news/vs2013-community-vs.aspx)
